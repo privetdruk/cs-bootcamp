@@ -19,7 +19,7 @@ operation:
 
   python_action:
     script: |
-    import: uuid
+    import uuid
     uuid = str(uuid.uuid1())
 
   outputs:
